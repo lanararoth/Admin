@@ -1,0 +1,119 @@
+/* AddCase Page Container */
+.add-case-container {
+    max-width: 600px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #d4d0aa !important;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Page Heading */
+  .add-case-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 28px;
+  }
+  
+  /* Section Headings */
+  .add-case-container h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 15px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  /* Form Group for Alignment */
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Labels */
+  .form-group label {
+    flex: 0 0 150px; /* Fixed width for labels */
+    text-align: left;
+    color: #333;
+  }
+  
+  /* Input Fields */
+  .form-group input,
+  .form-group select {
+    flex: 1; /* Input takes the remaining space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Focus Effect for Inputs */
+  .form-group input:focus,
+  .form-group select:focus {
+    outline: none;
+    border-color: #000;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Buttons */
+  .save-button,
+  .cancel-button {
+    display: inline-block;
+    width: 48%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Save Button */
+  .save-button {
+    background-color: #555;
+    color: white;
+    border: none;
+  }
+  
+  .save-button:hover {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  /* Cancel Button */
+  .cancel-button {
+    background-color: #a69e9e;
+    color: #333;
+    border: 1px solid #ccc;
+  }
+  
+  .cancel-button:hover {
+    background-color: #ddd;
+    color: #000;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .form-group {
+      flex-direction: column; /* Stack labels and inputs */
+      align-items: stretch;
+    }
+  
+    .form-group label {
+      margin-bottom: 5px;
+    }
+  
+    .save-button,
+    .cancel-button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  

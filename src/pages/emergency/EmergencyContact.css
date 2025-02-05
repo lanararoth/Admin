@@ -1,0 +1,120 @@
+.emergency-contacts-container {
+    max-width: 800px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    gap: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1;
+    max-width: 200px;
+  }
+  
+  .form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #555;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #ccc;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .thead th {
+    background-color: #f3f3f3;
+    color: #000;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #555 !important;
+    color: #fff !important;
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+    background-color: #ccc;
+    color: #ccc;
+  }
+
+  .add-contact {
+    margin-top: 29px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .add-contact-button {
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-contact-button:hover {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  .alert-notification {
+    background-color: #d4edda;
+    color: #025515;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  
+  
+  
+  
+  

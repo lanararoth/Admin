@@ -1,0 +1,21 @@
+.layout-container {
+    display: flex; /* Sidebar and main content in a flex layout */
+  }
+  
+  .sidebar {
+    width: 250px; /* Sidebar width */
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+  
+  .main-content {
+    flex: 1;
+    margin-left: 250px; /* Leave space for the sidebar */
+    margin-top: 60px; /* Leave space for the header */
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+  

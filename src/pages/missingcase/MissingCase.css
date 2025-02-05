@@ -1,0 +1,121 @@
+/* src/styles/MissingCasesAdmin.css */
+.missing-cases-admin-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .missing-cases-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .missing-cases-table th,
+  .missing-cases-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    word-wrap: break-word; /* Ensure text wraps within cells */
+    vertical-align: middle; /* Aligns content properly in the middle */
+  }
+  
+  .missing-cases-table th {
+    background-color: #f3f3f3;
+    font-weight: bold;
+  }
+  
+  .action-button {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .view-button {
+    background-color: #555;
+    font-size: 12px; /* Reduce button size */
+  }
+
+  .view-button:hover {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  .edit-button {
+    background-color: #555;
+    font-size: 12px; /* Reduce button size */
+  }
+
+  .edit-button:hover {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  .delete-button {
+    background-color: #555;
+    font-size: 12px; /* Reduce button size */
+    margin-bottom: 5px;
+  }
+
+  .delete-button:hover {
+    background-color: #ccc;
+    color: #000;
+    margin-bottom: 5px;
+  }
+  
+  .notify-button {
+    background-color: #555;
+    font-size: 12px; /* Reduce button size */
+  }
+
+  .notify-button:hover{
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  .addcase-container {
+    text-align: right;
+    box-shadow: none !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    background-color: #f0f0f0 !important; /* Set the background color */
+    padding: 0 !important; /* Add padding for spacing */
+}
+  
+  .addcase-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: none;
+    
+  }
+  
+  .add-case-button:hover {
+    background-color: #555;
+  }
+
+  /* Styles for case images */
+  .case-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+
+  }
+  

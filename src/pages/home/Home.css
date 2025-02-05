@@ -1,0 +1,123 @@
+/* General Dashboard Styles */
+.dashboard {
+  padding: 2rem;
+  background: #d4d0aa;
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.dashboard-title {
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Dashboard Widgets */
+.dashboard-widgets-horizontal {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.widget {
+  background: #f0f0f0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1 1 30%;
+  max-width: 300px;
+  margin-bottom: 30px;
+}
+
+.widget h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  color: #4a4a4a;
+}
+
+.widget p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Parent Container for Quick Actions and Notifications */
+.actions-and-notifications {
+  display: flex;
+  gap: 1.5rem; /* Spacing between the two boxes */
+  margin-top: 1.5rem;
+}
+
+/* Quick Actions */
+
+.quick-actions,
+.notifications {
+  flex: 1; /* Makes the boxes take equal width */
+  background: #d4d0aa;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.quick-actions h2,
+.notifications h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  
+}
+
+/* Quick Actions Buttons */
+.quick-actions-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Add spacing between buttons */
+  justify-content: center; /* Center align the buttons */
+  align-items: center;
+}
+
+.action-button {
+  width: 300px;
+  padding: 10px;
+}
+
+
+
+
+.action-button button {
+  background: #f0f0f0;
+  color: #000;
+  border: none;
+  padding: 10px 20px; /* Adjust padding for consistent size */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 1rem; /* Make font size consistent */
+}
+
+.action-button button:hover {
+  background: #555;
+  color: #000;
+}
+
+/* Notifications */
+.notifications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.notification-item {
+  padding: 20px;
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+

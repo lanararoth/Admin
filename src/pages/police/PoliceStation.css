@@ -1,0 +1,172 @@
+/* General Page Styling */
+
+  
+  .police-page {
+    max-width: 1000px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    gap: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Title */
+  .h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000; /* Dark text for the title */
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  /* Add Button */
+  .add-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #5a6268; /* Green color for the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-button:hover {
+    color: #000;
+    background-color: #ccc; /* Slightly darker green on hover */
+  }
+  
+  /* Table Styling */
+  .police-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .police-table th,
+  .police-table td {
+    background-color: #f3f3f3;
+    color: #000;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .police-table th {
+    background-color: #d5d3d3; /* Dark background for header */
+    color: #666; /* White text */
+    font-weight: bold;
+  }
+  
+  
+  
+  .police-table tr:hover {
+    background-color: #eceadf; /* Light beige hover color */
+  }
+  
+  .police-table td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Buttons */
+  .edit-button,
+  .delete-button {
+    font-size: 14px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button {
+    background-color: #5a6268; /* Dark gray for edit button */
+    color: #fff; /* White text */
+    margin-right: 5px;
+  }
+  
+  .edit-button:hover {
+    background-color: #ccc; /* Slightly darker gray on hover */
+  }
+  
+  .delete-button {
+    background-color: #5a6268; /* Red for delete button */
+    color: #fff; /* White text */
+  }
+  
+  .delete-button:hover {
+    background-color: #ccc; /* Darker red on hover */
+  }
+  
+  /* Form Container */
+  .form-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: #f3f3f3; /* White card background */
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form-container form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .form-container form input {
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .submit-button,
+  .cancel-button {
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button {
+    background-color: #5a6268; /* Green for submit */
+    color: #fff;
+  }
+  
+  .submit-button:hover {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  .cancel-button {
+    background-color: #5a6268; /* Red for cancel */
+    color: #fff;
+  }
+  
+  .cancel-button:hover {
+    background-color: #ccc;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
